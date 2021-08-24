@@ -2,7 +2,7 @@
 sidebarDepth: 2
 ---
 
-# Stake Pool Tutorial
+# Stake Pool
 
 The Parrot Stake Pool is a deployment of the official [Solana Stake Pool](https://spl.solana.com/stake-pool) implementation. It uses the [SPL stake pool](https://github.com/solana-labs/solana-program-library/tree/4b0f59e9c61554708de969b01892b90955d5fd69/stake-pool).
 
@@ -57,7 +57,7 @@ equal to 1 epoch worth of rewards, or about 3 days. The withdrawal fee protects
 the pool from users that stake SOL, and immediately withdraw the SOL from the
 pool into an activated stake account.
 
-## Deposit SOL From Activated Stake
+## Deposit Staked SOL
 
 Another way to join the pool is to use the SOL you've already staked with
 another validator. You can join a stake pool, immediately get prtSOL, without

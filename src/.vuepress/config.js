@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'PartyParrot Documentation',
+  title: 'PARROT.FI Documentation',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -44,7 +44,7 @@ module.exports = {
       },
       {
         text: 'App',
-        link: 'https://partyparrot.finance'
+        link: 'https://parrot.fi'
       }
     ],
     sidebar: {
@@ -56,6 +56,7 @@ module.exports = {
             '',
             'pai',
             'faucet',
+            'stake-pool',
           ]
         }
       ],
