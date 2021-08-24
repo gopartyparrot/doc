@@ -909,3 +909,66 @@ Parrot Test Token is a vault type used by the team to test liquidation using the
 
 interest rate per year: 499.999999972176
 ```
+
+# Staking Pool
+
+* Stake Pool Program ID: 3puRp4bBPqDyBJuumc4Nwrv5W699kCZpmoTaQQKaobJh
+* Staking Pool: 5zpy67yDeTTDD1m25aFAjXGDyXNoEXbwAZQdEfzr7h1Z
+* Stake Pool Token (prtSOL): nF429rjEaGMGeH7LBacMGAY9xu5jUUAdCo7FPQZk6RX
+* Stake Pool fee account: B5JoYqcmJbwuzXR6fU2U1w6pR5Z3c8tVrcUqbrp23wQQ
+
+* Stake Pool Token Mint Authority: 6eMTta5HF7WRrXzEd7KUYqfiANaSZjd4fmrC7HcUUFPf
+  * stake pool withdraw authority, PDA = [stakepool.address, "withdraw"]
+* Stake Pool Token Deposit Authority: 756fQduNCARPd9H1R8fAJhfXxFAHaWPVMCgNjeudB9aD
+  * stake pool withdraw authority, PDA = [stakepool.address, "deposit"]
+
+```
+Stake Pool Info
+===============
+Stake Pool: 5zpy67yDeTTDD1m25aFAjXGDyXNoEXbwAZQdEfzr7h1Z
+Validator List: 8tsv2UdQ7gDJSgRZXg3SafiouamALd1bAZAHcZgHJ19f
+Manager: 3FadrT6JsE5GSrLFUy4qPvA26EMBzAHuG5uvYWcCWVCa
+Staker: 3FadrT6JsE5GSrLFUy4qPvA26EMBzAHuG5uvYWcCWVCa
+Depositor: DUHWc4jNuD7BtocoUENtZvsk7DbM7MSUJjrqgf2TY1aH
+SOL Deposit Authority: None
+Withdraw Authority: ekNwnscdPZcbe4dkVoxaErYqgqvyTxW1GfneNDYPacE
+Pool Token Mint: nF429rjEaGMGeH7LBacMGAY9xu5jUUAdCo7FPQZk6RX
+Fee Account: 4URgrhUTMAxgjg1MrLrs7576kcZ9wtSPNKEecF117uZX
+Epoch Fee: 2/100 of epoch rewards
+Withdrawal Fee: 1/1000 of withdrawal amount
+Stake Deposit Fee: none
+SOL Deposit Fee: none
+SOL Deposit Referral Fee: none
+Stake Deposit Referral Fee: none
+
+Stake Accounts
+--------------
+Reserve Account: 9NrQTyA3qmgfK19prYpTyUjDDhdeWR47fepyuJCpvag    Available Balance: ◎0.000000000
+Vote Account: GBU4potq4TjsmXCUSJXbXwnkYZP8725ZEaeDrLrdQhbA      Stake Account: DEVUWR23w27eaQP3PJqyYphhuujGRfb2mEqzZexvUVLj     Active Balance: ◎0.000000000    Transient Stake Account: B7M88yH6oYRjDRwYvEHYCefaVDJPQFaeWYJvzAk9Tmjp       Transient Balance: ◎0.000000000 Last Update Epoch: 215
+
+Total Pool Stake: ◎0.000000000
+Total Pool Tokens: 0
+Current Number of Validators: 1
+Max Number of Validators: 500
+```
+
+# Trading Pairs
+
+## PORT-PAI
+
+Serum Market: 5xswMf18x4gFY3c5i3A2RwPwhfHPZ71kpzPpmQvWmm9V
+
+Raydium AMM: [HxtMkadadcKbpyX1Qfa2K5KnPjqrc2ifBiEvssuBg7nB](https://raydium.io/swap/?ammId=HxtMkadadcKbpyX1Qfa2K5KnPjqrc2ifBiEvssuBg7nB)
+
+## FAB-PAI
+
+Serum Market: 95BpxiADwbKBhFKcd1aKpjpnyNBNms5oNsFvGpbANQR3
+
+Raydium AMM: [8Wi7Uzr5oqKbC5fCCAW5zihaU8yUwiaPJMUW7HcDoMEq](https://raydium.io/swap/?ammId=8Wi7Uzr5oqKbC5fCCAW5zihaU8yUwiaPJMUW7HcDoMEq)
+
+
+# Invest Wallets
+
+* USDC+Earn investment: 36swmX3oraDDNQ1tDXHDefPmGREZuo1KFH77NEvdXKQr
+* MER LP UST3pool+Earn invesetment: 35j2STGDvjwkG8uBZBBkmW7JMJYa4hAAxxEXhs14n5tc
+* SBR LP USDC-USDT2pool+Earn investment: FTUFAHGQEDBgGA6GjRogas1LW4s4HmyUebTjVJQSv8rN
