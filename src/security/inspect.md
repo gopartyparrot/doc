@@ -1,3 +1,7 @@
+# Inspect Dump
+
+Detailed information of relevant program accounts.
+
 ```
 {
   multisigProgramID: A9HAbnCwoD6f2NkZobKFf6buJoN9gUVVvX5PoUnDHS6u,

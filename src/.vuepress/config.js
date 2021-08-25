@@ -67,7 +67,8 @@ module.exports = {
           children: [
             '',
             'mainnet',
-            'instructions',
+            'inspect',
+            'instructions'
           ]
         }
       ],
