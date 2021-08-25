@@ -28,7 +28,7 @@ debtType: BTC BMvtz4D3pDD7PQrf19A9VDPBN6HCBTww26Gcx1YMy3XJ
   debtOriginator: {
     mint: DYDWu4hE4MN3aH897xQ3sRTs5EAjJDmQsKLNhbpUiKun,
     owner: 8df6UEhPTC97TXi5FQBG9bA3GrXYU7nTWtzrTV1exmKs,
-    amount: 7976324854,
+    amount: 8023912148,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -81,7 +81,7 @@ debtType: PAI DNFiMrAVT3RatwZwfMxRfeVvsY96ha18ZnXKyuZkFh5h
   debtOriginator: {
     mint: Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS,
     owner: 8aTV8MJRHMxRq6KSBVENEJciSQGKdheCEHAtM6j7qL1w,
-    amount: 1562713954,
+    amount: 2658032043,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -253,18 +253,18 @@ interest rate per year: 0.199999999850112%
   liquidationCollateralRatio: 12500,
   liquidationPenalty: 500,
   interestRate: 584942417,
-  interestAccum: 16425744624168986,
-  interestAccumUpdated: 93234536,
-  accruedInterests: 30373860579453761631415280,
+  interestAccum: 16439076046794833,
+  interestAccumUpdated: 93257327,
+  accruedInterests: 30380987606681874553477733,
   debtCeiling: 10000000000,
-  totalDebt: 37360591367168265389734751216
+  totalDebt: 36482767860617119399298046565
 }
 {
   vaultTypePDA: DQV7nFUWKSsiT7eWPhfGhdiRFsU1DmnEYgbFGKuPPsMs,
   collateralHolder: {
     mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,
     owner: DQV7nFUWKSsiT7eWPhfGhdiRFsU1DmnEYgbFGKuPPsMs,
-    amount: 1795517493974,
+    amount: 1759885783974,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -392,6 +392,44 @@ interest rate per year: 0.099999999798912%
     rentExemptReserve: null
   }
 }
+SBR LP (mSOL-SOL):pSOL+EARN 71gB7NQ4zhgRF1hkRDR3PhmmSnzwKgY6QWZQ4JVTQwv4
+interest rate per year: 0.099999999798912%
+{
+  version: 0,
+  debtType: 'FfmNwJYpNKLaK914DoLZR7vtj9zww1SB4E5bZUfXWKwa',
+  collateralToken: 'SoLEao8wTzSfqhuou8rcYsVoLjthVmiXuEjzdNPMnCz',
+  collateralTokenHolder: 'GE4xgm8XuCFKDZ2d4d7dWQ9BAXWP5k43g8neLBZTZDUE',
+  priceOracle: 'STABLEQRACLE1111111111111111111111111111111',
+  nonce: 255,
+  minimumCollateralRatio: 12000,
+  liquidationCollateralRatio: 10000,
+  liquidationPenalty: 500,
+  interestRate: 292471208,
+  interestAccum: 0,
+  interestAccumUpdated: 93257790,
+  accruedInterests: 0,
+  debtCeiling: 200000000000,
+  totalDebt: 0
+}
+{
+  vaultTypePDA: A8gtS5FV2UgjCjKxAEPm6aCXjPQaaeiZJKeGJnR1adCs,
+  collateralHolder: {
+    mint: SoLEao8wTzSfqhuou8rcYsVoLjthVmiXuEjzdNPMnCz,
+    owner: A8gtS5FV2UgjCjKxAEPm6aCXjPQaaeiZJKeGJnR1adCs,
+    amount: 0,
+    delegateOption: 0,
+    delegate: null,
+    state: 1,
+    isNativeOption: 0,
+    isNative: false,
+    delegatedAmount: 0,
+    closeAuthorityOption: 0,
+    closeAuthority: null,
+    isInitialized: true,
+    isFrozen: false,
+    rentExemptReserve: null
+  }
+}
 MER LP (USDC-USDT-UST):PAI+EARN BXLfuBETi9QPJegbsUL2QPbNdEncKFKiVqEd8PgDtt9J
 interest rate per year: 0.099999999798912%
 {
@@ -405,18 +443,18 @@ interest rate per year: 0.099999999798912%
   liquidationCollateralRatio: 10000,
   liquidationPenalty: 500,
   interestRate: 292471208,
-  interestAccum: 942891493104624,
-  interestAccumUpdated: 93247372,
+  interestAccum: 945949864526680,
+  interestAccumUpdated: 93257829,
   accruedInterests: 635294493643177618418312657,
   debtCeiling: 9650000000000,
-  totalDebt: 112336480742809576764280408253905
+  totalDebt: 112359490473497359110584142013905
 }
 {
   vaultTypePDA: 6EnWVbLNijTPNQEy73MvkPcDeyEvChiKeMY2aVvMtvkC,
   collateralHolder: {
     mint: 57h4LEnBooHrKbacYWGCFghmrTzYPVn8PwZkzTzRLvHa,
     owner: 6EnWVbLNijTPNQEy73MvkPcDeyEvChiKeMY2aVvMtvkC,
-    amount: 2368501131610000,
+    amount: 2369997971610000,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -443,18 +481,18 @@ interest rate per year: 0.199999999850112%
   liquidationCollateralRatio: 12500,
   liquidationPenalty: 500,
   interestRate: 584942417,
-  interestAccum: 77127465445370160,
-  interestAccumUpdated: 93256499,
-  accruedInterests: 15936557350924078316481190562,
+  interestAccum: 77128318291414146,
+  interestAccumUpdated: 93257957,
+  accruedInterests: 15936609003913246051281190562,
   debtCeiling: 9000000000000,
-  totalDebt: 134247886811634119672281475619490
+  totalDebt: 134234992537528702457049947094690
 }
 {
   vaultTypePDA: 62Xb5ydBN1vrkg85SuKEL6aPv4bsy6iTiH3Jvki8NfNr,
   collateralHolder: {
     mint: So11111111111111111111111111111111111111112,
     owner: 62Xb5ydBN1vrkg85SuKEL6aPv4bsy6iTiH3Jvki8NfNr,
-    amount: 507147907665058,
+    amount: 507130907665058,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -519,18 +557,18 @@ interest rate per year: 0.099999999798912%
   liquidationCollateralRatio: 10000,
   liquidationPenalty: 500,
   interestRate: 292471208,
-  interestAccum: 1507200650322640,
-  interestAccumUpdated: 93252256,
-  accruedInterests: 3354186725300645174467679504,
+  interestAccum: 1508720623190616,
+  interestAccumUpdated: 93257453,
+  accruedInterests: 3354215053917274269196441760,
   debtCeiling: 7000000000000,
-  totalDebt: 129127208319024342269523158160656
+  totalDebt: 129127127493410562678208489281696
 }
 {
   vaultTypePDA: AjExAjiLEDLLka42n1biVs5akE5qJ6gNTHH8JKByxW4h,
   collateralHolder: {
     mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,
     owner: AjExAjiLEDLLka42n1biVs5akE5qJ6gNTHH8JKByxW4h,
-    amount: 839834106731,
+    amount: 839828846731,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -671,18 +709,18 @@ interest rate per year: 0.199999999850112%
   liquidationCollateralRatio: 12500,
   liquidationPenalty: 500,
   interestRate: 584942417,
-  interestAccum: 7289098487452440,
-  interestAccumUpdated: 93256438,
-  accruedInterests: 520662045528007071558522894,
+  interestAccum: 7289476945196239,
+  interestAccumUpdated: 93257085,
+  accruedInterests: 520668566844522270252530967,
   debtCeiling: 3000000000000,
-  totalDebt: 4687303350656989508044980738062
+  totalDebt: 4657451135349786559682519170327
 }
 {
   vaultTypePDA: q96RZiNkec9PAfLtgrJaGLvXSK9fxs4DQ1g6RbiSvJg,
   collateralHolder: {
     mint: SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt,
     owner: q96RZiNkec9PAfLtgrJaGLvXSK9fxs4DQ1g6RbiSvJg,
-    amount: 161629580249,
+    amount: 161366751785,
     delegateOption: 0,
     delegate: null,
     state: 1,
