@@ -4,7 +4,7 @@ sidebarDepth: 2
 
 # Stake Pool
 
-The Parrot Stake Pool is a deployment of the official [Solana Stake Pool](https://spl.solana.com/stake-pool) implementation. It uses the [SPL stake pool](https://github.com/solana-labs/solana-program-library/tree/4b0f59e9c61554708de969b01892b90955d5fd69/stake-pool).
+The Parrot Stake Pool is a deployment of the official [Solana Stake Pool](https://spl.solana.com/stake-pool) implementation. You can use the Parrot [stake pool UI](https://parrot.fi/stake-sol/) to stake SOL, and mint stake pool tokens.
 
 This tutorial will guide you through the process of staking and unstaking with a stake pool. In a nutshell:
 
