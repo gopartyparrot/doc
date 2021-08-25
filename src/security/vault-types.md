@@ -81,7 +81,7 @@ debtType: PAI DNFiMrAVT3RatwZwfMxRfeVvsY96ha18ZnXKyuZkFh5h
   debtOriginator: {
     mint: Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS,
     owner: 8aTV8MJRHMxRq6KSBVENEJciSQGKdheCEHAtM6j7qL1w,
-    amount: 33828967,
+    amount: 1562713954,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -150,6 +150,44 @@ debtType: pSOL FfmNwJYpNKLaK914DoLZR7vtj9zww1SB4E5bZUfXWKwa
   interestsHolder: {
     mint: 9EaLkQrbjmbbuZG9Wdpo8qfNUEjHATJFSycEmw6f1rGX,
     owner: 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te,
+    amount: 0,
+    delegateOption: 0,
+    delegate: null,
+    state: 1,
+    isNativeOption: 0,
+    isNative: false,
+    delegatedAmount: 0,
+    closeAuthorityOption: 0,
+    closeAuthority: null,
+    isInitialized: true,
+    isFrozen: false,
+    rentExemptReserve: null
+  }
+}
+BTC (sollet):pBTC 3Yr8jM8ydG21GWQXMkks4q3KawSdSGMmLRFfRozwrDom
+interest rate per year: 0.099999999798912%
+{
+  version: 0,
+  debtType: 'BMvtz4D3pDD7PQrf19A9VDPBN6HCBTww26Gcx1YMy3XJ',
+  collateralToken: '9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E',
+  collateralTokenHolder: '7H6v71sAbamzoJAxnXYJMeAWmLZXMYEP7Dy96VgqNPeZ',
+  priceOracle: 'STABLEQRACLE1111111111111111111111111111111',
+  nonce: 255,
+  minimumCollateralRatio: 10500,
+  liquidationCollateralRatio: 10000,
+  liquidationPenalty: 500,
+  interestRate: 292471208,
+  interestAccum: 0,
+  interestAccumUpdated: 93255154,
+  accruedInterests: 0,
+  debtCeiling: 10000000000,
+  totalDebt: 0
+}
+{
+  vaultTypePDA: CkgNPPZasMZJyNsefrTGgG8shZ87W1CAcXCHjhjwAEUW,
+  collateralHolder: {
+    mint: 9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E,
+    owner: CkgNPPZasMZJyNsefrTGgG8shZ87W1CAcXCHjhjwAEUW,
     amount: 0,
     delegateOption: 0,
     delegate: null,
@@ -316,7 +354,45 @@ interest rate per year: 0.199999999850112%
     rentExemptReserve: null
   }
 }
-MER LP (USDC-USDT-UST):PAI BXLfuBETi9QPJegbsUL2QPbNdEncKFKiVqEd8PgDtt9J
+RAY LP (MER-USDC):PAI+EARN 6bMxkVsFCyfr29XxQCPP8buJsgUog6nXxot5S3Evtjed
+interest rate per year: 0.099999999798912%
+{
+  version: 0,
+  debtType: 'DNFiMrAVT3RatwZwfMxRfeVvsY96ha18ZnXKyuZkFh5h',
+  collateralToken: '3H9NxvaZoxMZZDZcbBDdWMKbrfNj7PCF5sbRwDr7SdDW',
+  collateralTokenHolder: '9q7EtsS1BrDa2EaS76ED8vGrYxPxRX98B3p38ZZj8CVx',
+  priceOracle: '72qcEpuDzAEytUeHy9YePmV5Nbf3aNSXCKw9u7XPS1NE',
+  nonce: 254,
+  minimumCollateralRatio: 30000,
+  liquidationCollateralRatio: 20000,
+  liquidationPenalty: 500,
+  interestRate: 292471208,
+  interestAccum: 0,
+  interestAccumUpdated: 93255843,
+  accruedInterests: 0,
+  debtCeiling: 2000000000000,
+  totalDebt: 0
+}
+{
+  vaultTypePDA: 5xbHeB7BS7YJAChLamfdeFna5HPxj481KQrymxJnH4S2,
+  collateralHolder: {
+    mint: 3H9NxvaZoxMZZDZcbBDdWMKbrfNj7PCF5sbRwDr7SdDW,
+    owner: 5xbHeB7BS7YJAChLamfdeFna5HPxj481KQrymxJnH4S2,
+    amount: 0,
+    delegateOption: 0,
+    delegate: null,
+    state: 1,
+    isNativeOption: 0,
+    isNative: false,
+    delegatedAmount: 0,
+    closeAuthorityOption: 0,
+    closeAuthority: null,
+    isInitialized: true,
+    isFrozen: false,
+    rentExemptReserve: null
+  }
+}
+MER LP (USDC-USDT-UST):PAI+EARN BXLfuBETi9QPJegbsUL2QPbNdEncKFKiVqEd8PgDtt9J
 interest rate per year: 0.099999999798912%
 {
   version: 0,
@@ -367,18 +443,18 @@ interest rate per year: 0.199999999850112%
   liquidationCollateralRatio: 12500,
   liquidationPenalty: 500,
   interestRate: 584942417,
-  interestAccum: 77120154835042494,
-  interestAccumUpdated: 93244001,
-  accruedInterests: 15936435073706700883046315562,
+  interestAccum: 77127465445370160,
+  interestAccumUpdated: 93256499,
+  accruedInterests: 15936557350924078316481190562,
   debtCeiling: 9000000000000,
-  totalDebt: 134257607846782586122906398504490
+  totalDebt: 134247886811634119672281475619490
 }
 {
   vaultTypePDA: 62Xb5ydBN1vrkg85SuKEL6aPv4bsy6iTiH3Jvki8NfNr,
   collateralHolder: {
     mint: So11111111111111111111111111111111111111112,
     owner: 62Xb5ydBN1vrkg85SuKEL6aPv4bsy6iTiH3Jvki8NfNr,
-    amount: 507147807665058,
+    amount: 507147907665058,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -392,7 +468,7 @@ interest rate per year: 0.199999999850112%
     rentExemptReserve: 2039280
   }
 }
-SBR LP (UST-USDC):PAI Gwm8RAtvotSREh4uzGC8Um527FX8vsC2Rf1SR9jcRjqo
+SBR LP (UST-USDC):PAI+EARN Gwm8RAtvotSREh4uzGC8Um527FX8vsC2Rf1SR9jcRjqo
 interest rate per year: 0.099999999798912%
 {
   version: 0,
@@ -544,7 +620,7 @@ interest rate per year: 0.099999999798912%
     rentExemptReserve: null
   }
 }
-RAY LP (SOL-USDC):PAI 57sxLnqdvqV6rM2CjV45ip5vRAWG9CK4aF2GwuzHXZFT
+RAY LP (SOL-USDC):PAI+EARN 57sxLnqdvqV6rM2CjV45ip5vRAWG9CK4aF2GwuzHXZFT
 interest rate per year: 0.199999999850112%
 {
   version: 0,
@@ -595,18 +671,18 @@ interest rate per year: 0.199999999850112%
   liquidationCollateralRatio: 12500,
   liquidationPenalty: 500,
   interestRate: 584942417,
-  interestAccum: 7234447317432130,
-  interestAccumUpdated: 93163008,
-  accruedInterests: 519539826702319219683063879,
+  interestAccum: 7289098487452440,
+  interestAccumUpdated: 93256438,
+  accruedInterests: 520662045528007071558522894,
   debtCeiling: 3000000000000,
-  totalDebt: 4705784021085805746998951508039
+  totalDebt: 4687303350656989508044980738062
 }
 {
   vaultTypePDA: q96RZiNkec9PAfLtgrJaGLvXSK9fxs4DQ1g6RbiSvJg,
   collateralHolder: {
     mint: SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt,
     owner: q96RZiNkec9PAfLtgrJaGLvXSK9fxs4DQ1g6RbiSvJg,
-    amount: 161790191669,
+    amount: 161629580249,
     delegateOption: 0,
     delegate: null,
     state: 1,
@@ -620,7 +696,7 @@ interest rate per year: 0.199999999850112%
     rentExemptReserve: null
   }
 }
-SBR LP (USDC-USDT):PAI 3UehpWTy9ASAqCx8AyRu2GaZsdTteZWRbsJ4dYhEkpAs
+SBR LP (USDC-USDT):PAI+EARN 3UehpWTy9ASAqCx8AyRu2GaZsdTteZWRbsJ4dYhEkpAs
 interest rate per year: 0.099999999798912%
 {
   version: 0,
@@ -696,6 +772,4 @@ interest rate per year: 4.99999999972176%
     rentExemptReserve: null
   }
 }
-Done in 20.25s.
-
 ```
