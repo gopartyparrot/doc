@@ -23,7 +23,7 @@ This document contains the list of accounts related to the Parrot Protocol.
 * Upgrade Authority should be multsig PDA
   * 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
 
-[Detailed info dump](./vault-types) of debt types and vault types.
+[Detailed info dump](./vault-types.html) of debt types and vault types.
 
 ## Debt Types
 
