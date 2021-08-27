@@ -66,6 +66,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'audit-report',
             'mainnet',
             'inspect',
             'instructions'
