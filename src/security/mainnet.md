@@ -41,6 +41,14 @@ pBTC DYDWu4hE4MN3aH897xQ3sRTs5EAjJDmQsKLNhbpUiKun
 pSOL 9EaLkQrbjmbbuZG9Wdpo8qfNUEjHATJFSycEmw6f1rGX
 ```
 
+## Debt Originators
+
+```
+PAI 2MbGB5NQiXPUtnQnh6si6pNLopbiC1NGRSup6FWoy2wd
+pBTC E2Z1LARf4JhYB4KM4HM9nZYTkown9UqcDKV7iYDcfwFP
+pSOL 7rAdiCgEKtzRie684jct9K1KmMZuatj3CLn7Gtgx7yef
+```
+
 ## Vault Types
 
 ```
@@ -135,3 +143,7 @@ Raydium AMM: [8Wi7Uzr5oqKbC5fCCAW5zihaU8yUwiaPJMUW7HcDoMEq](https://raydium.io/s
   * 35j2STGDvjwkG8uBZBBkmW7JMJYa4hAAxxEXhs14n5tc
 * SBR LP USDC-USDT2pool+Earn investment:
   * FTUFAHGQEDBgGA6GjRogas1LW4s4HmyUebTjVJQSv8rN
+
+## EARN Profits Distributor
+
+EMaPxqea4UzxxyWcmJvfky6w6KCvWigv87KEanshL8Di
