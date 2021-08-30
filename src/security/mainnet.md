@@ -4,9 +4,9 @@ This document contains the list of accounts related to the Parrot Protocol.
 
 ## Multisig (2/3)
 
-* Multisig: GZXtZrRTaazATgJpWKReqUEYE6L2CSQRHkFnXQDPA2vD
-  * [Multisig Walle UI](https://multisig.projectserum.com/#/GZXtZrRTaazATgJpWKReqUEYE6L2CSQRHkFnXQDPA2vD)
-* Multisig PDA: 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
+- Multisig: GZXtZrRTaazATgJpWKReqUEYE6L2CSQRHkFnXQDPA2vD
+  - [Multisig Walle UI](https://multisig.projectserum.com/#/GZXtZrRTaazATgJpWKReqUEYE6L2CSQRHkFnXQDPA2vD)
+- Multisig PDA: 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
 
 ```
 {
@@ -19,9 +19,9 @@ This document contains the list of accounts related to the Parrot Protocol.
 
 ## Parrot Program
 
-* Program: HajXYaDXmohtq2ZxZ6QVNEpqNn1T53Zc9FnR1CnaNnUf
-* Upgrade Authority should be multsig PDA
-  * 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
+- Program: HajXYaDXmohtq2ZxZ6QVNEpqNn1T53Zc9FnR1CnaNnUf
+- Upgrade Authority should be multsig PDA
+  - 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
 
 [Detailed info dump](./inspect.html) of debt types and vault types.
 
@@ -58,9 +58,9 @@ USDT:PAI 85EuQhTe2ZmbQpmTjqymLmKepgZgJytYFavvivpDwyTg
 wSOL:PAI 8PcJ5FmtmuYQCvBhaHkVY5DKVBn8BsMtV5RVqHU4h8ir
 renBTC:PAI E6nGZdWJqDuW1yinj6Nrca16Ah6ggq3GTZre4YGDqwij
 SRM:PAI 2EZB7gas5vmRAtB3HQkGvacQ4NKvdmC1gaeMUSE3ivKD
-MER LP (USDC-USDT-UST):PAI BXLfuBETi9QPJegbsUL2QPbNdEncKFKiVqEd8PgDtt9J
-SBR LP (UST-USDC):PAI Gwm8RAtvotSREh4uzGC8Um527FX8vsC2Rf1SR9jcRjqo
-SBR LP (USDC-USDT):PAI 3UehpWTy9ASAqCx8AyRu2GaZsdTteZWRbsJ4dYhEkpAs
+MER LP (USDC-USDT-UST):PAI+EARN BXLfuBETi9QPJegbsUL2QPbNdEncKFKiVqEd8PgDtt9J
+SBR LP (UST-USDC):PAI+EARN Gwm8RAtvotSREh4uzGC8Um527FX8vsC2Rf1SR9jcRjqo
+SBR LP (USDC-USDT):PAI+EARN 3UehpWTy9ASAqCx8AyRu2GaZsdTteZWRbsJ4dYhEkpAs
 RAY LP (SOL-USDC):PAI 57sxLnqdvqV6rM2CjV45ip5vRAWG9CK4aF2GwuzHXZFT
 RAY LP (MER-USDC):PAI+EARN 6bMxkVsFCyfr29XxQCPP8buJsgUog6nXxot5S3Evtjed
 
@@ -90,19 +90,18 @@ USD:BTC: EjwENJ2jbJ9psKeapDezu5oKQe9chnU4wQJFE4ufymDs
 
 ## Staking Pool
 
-* Stake Pool Program ID: 3puRp4bBPqDyBJuumc4Nwrv5W699kCZpmoTaQQKaobJh
-* Stake Pool fee account: Dpx8VM5SPX8tz5bkVaSQkdj4DCUpuHLGQ6GBChjaa7Ab
-  * Fee account owner: 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
-* Stake Pool manager: 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
+- Stake Pool Program ID: 3puRp4bBPqDyBJuumc4Nwrv5W699kCZpmoTaQQKaobJh
+- Stake Pool fee account: Dpx8VM5SPX8tz5bkVaSQkdj4DCUpuHLGQ6GBChjaa7Ab
+  - Fee account owner: 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
+- Stake Pool manager: 5jwBGfXVpcEY9Hqmw2hCu77NMnoMeVKzgKCChf82d1Te
 
-* Staking Pool: AMjGNE12gNoZnrU68AGxUibYEjrGPgpPk3EYG5MZCiZQ
-* Stake Pool Token (prtSOL): BdZPG9xWrG3uFrx2KrUW1jT4tZ9VKPDWknYihzoPRJS3
+- Staking Pool: AMjGNE12gNoZnrU68AGxUibYEjrGPgpPk3EYG5MZCiZQ
+- Stake Pool Token (prtSOL): BdZPG9xWrG3uFrx2KrUW1jT4tZ9VKPDWknYihzoPRJS3
 
-* Stake Pool Token Mint Authority: 8A6KkyxFYaDNGZCEYLzMqXv7pvqLztBX1GrJgaNMofFA
-  * stake pool withdraw authority, PDA = [stakepool.address, "withdraw"]
-* Stake Pool Token Deposit Authority: 4ZjLqEA9ZKzG8C7nqJJYy74KrqGConYsqfC1onNehKhk
-  * stake pool withdraw authority, PDA = [stakepool.address, "deposit"]
-
+- Stake Pool Token Mint Authority: 8A6KkyxFYaDNGZCEYLzMqXv7pvqLztBX1GrJgaNMofFA
+  - stake pool withdraw authority, PDA = [stakepool.address, "withdraw"]
+- Stake Pool Token Deposit Authority: 4ZjLqEA9ZKzG8C7nqJJYy74KrqGConYsqfC1onNehKhk
+  - stake pool withdraw authority, PDA = [stakepool.address, "deposit"]
 
 ```
 Stake Pool Info
@@ -134,15 +133,18 @@ Serum Market: 95BpxiADwbKBhFKcd1aKpjpnyNBNms5oNsFvGpbANQR3
 
 Raydium AMM: [8Wi7Uzr5oqKbC5fCCAW5zihaU8yUwiaPJMUW7HcDoMEq](https://raydium.io/swap/?ammId=8Wi7Uzr5oqKbC5fCCAW5zihaU8yUwiaPJMUW7HcDoMEq)
 
-
 ## EARN Wallets
 
-* USDC+Earn investment:
-  * 36swmX3oraDDNQ1tDXHDefPmGREZuo1KFH77NEvdXKQr
-* MER LP UST3pool+Earn invesetment:
-  * 35j2STGDvjwkG8uBZBBkmW7JMJYa4hAAxxEXhs14n5tc
-* SBR LP USDC-USDT2pool+Earn investment:
-  * FTUFAHGQEDBgGA6GjRogas1LW4s4HmyUebTjVJQSv8rN
+- USDC:PAI+EARN
+  - 36swmX3oraDDNQ1tDXHDefPmGREZuo1KFH77NEvdXKQr
+- MER LP (USDC-USDT-UST):PAI+EARN
+  - 35j2STGDvjwkG8uBZBBkmW7JMJYa4hAAxxEXhs14n5tc
+- SBR LP (USDC-USDT):PAI+EARN
+  - FTUFAHGQEDBgGA6GjRogas1LW4s4HmyUebTjVJQSv8rN
+- SBR LP (mSOL-SOL):PAI+EARN
+  - PU6dC57WT8QRxZb4Z3tcLEPw2xszskKmobQBqqemZkh
+- SBR LP (UST-USDC):PAI+EARN
+  - 6Pv7Z8bRYXEYYabXvnLyTW6qRpwmuHTB1uFhdnKeSXgy
 
 ## EARN Profits Distributor
 
