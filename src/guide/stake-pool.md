@@ -8,22 +8,22 @@ The Parrot Stake Pool is a deployment of the official [Solana Stake Pool](https:
 
 This tutorial will guide you through the process of staking and unstaking with a stake pool. In a nutshell:
 
-* You deposit SOL into the Parrot Stake Pool to receive prtSOL immediately
-* The stake pool manager will be responsible for delegating the deposited SOL to validators
-* You may withdraw from the stake pool at any time. Typically, you will end up with an activated stake account
-* Undelegate from the activated account, and wait for the next epoch to get your SOL back
-* You will receive the original amount of SOL plus the block rewards that have accrued
+- You deposit SOL into the Parrot Stake Pool to receive prtSOL immediately
+- The stake pool manager will be responsible for delegating the deposited SOL to validators
+- You may withdraw from the stake pool at any time. Typically, you will end up with an activated stake account
+- Undelegate from the activated account, and wait for the next epoch to get your SOL back
+- You will receive the original amount of SOL plus the block rewards that have accrued
 
 ## Why Stake Pool?
 
 The stake pool is an important new primitive for the Solana ecosystem because it solves a few important problems:
 
-* It is difficult for a user to decide which validator to stake with. Which
+- It is difficult for a user to decide which validator to stake with. Which
   validators are stable? Which validators can help increase the security factor
   of the network?
-* Once a staker has chosen a validator, the staked amount is too "sticky", as
+- Once a staker has chosen a validator, the staked amount is too "sticky", as
   there is no incentive to balance the stake across more validators.
-* A user faces the dilemma of whether to stake SOL or to use SOL. Using SOL in
+- A user faces the dilemma of whether to stake SOL or to use SOL. Using SOL in
   DeFi means missing out on about 6~7% of annual yield from block rewards.
 
 The stake pool solves the first two problem because it is able to aggregate the
@@ -52,18 +52,21 @@ pool. Therefore, as time passes you will receive slightly less prtSOL for the sa
 redeeming prtSOL for SOL, you will get your deposited SOL back plus the block
 rewards that have accrued.
 
-Note: There are no fees for depositing, but there is a 0.1% withdrawl fee. 0.1% is roughly
-equal to 1 epoch worth of rewards, or about 3 days. The withdrawal fee protects
-the pool from users that stake SOL and immediately withdraw the SOL from the
-pool into an activated stake account.
+> Note: There are no fees for depositing, but there is a 0.1% withdrawl fee. 0.1% is roughly
+> equal to 1 epoch worth of rewards, or about 3 days. The withdrawal fee protects
+> the pool from users that stake SOL and immediately withdraw the SOL from the
+> pool into an activated stake account.
 
 ## Deposit Staked SOL
 
 Another way to join the pool is to use the SOL you've already staked with
-another validator. You can join a stake pool, immediately receive prtSOL, and restake without
-having to wait for at least 2 epochs to unstake.
+another validator. You can join a stake pool with an activated stake account and immediately receive prtSOL. Right now the [Top 30 validators](./top30-validators.html) are supported.
 
-(TODO. Launching soon.)
+> Note: your stake account needs to be activated, and then wait for at 1 additional epoch before it could join the pool. This is a technical quirk that will be fixed in an upcoming Solana release [PR #18985](https://github.com/solana-labs/solana/pull/18985).
+
+Under "Staking Accounts", activated stake accounts that are supported would have the "Transfer to pool" button enabled:
+
+![](./spool/transfer-activated-stake.png)
 
 ## Withdraw SOL
 
