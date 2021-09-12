@@ -25,6 +25,36 @@ This document contains the list of accounts related to the Parrot Protocol.
 
 [Detailed info dump](./inspect.html) of debt types and vault types.
 
+## PRT (TOKEN)
+
+PRT88RkA4Kg5z7pKnezeNH4mafTvtQdfFgpQTGRjz44
+
+## PRT IDO
+
+IDO Pool Program ID: 7r2chJLUU87eaM7T1aBi6f7g9BbtbgnwQ9kPbMGxJQWV
+
+Auction 1
+
+- Pool: 5JGWQPf6zLhuxL4bXa8aWKPxakqVJMWbMf9TBaVWfpXD
+- Pool Signer (PDA): BYtuU3qEiya2A7AjeMT3KWw8UAMVyYqXxDQ3SXEbR65x
+- Redeemable Mint: 9DBzZbce8fx5M44vfTB2mxv4upqybzbA8wP7LrZpszP7
+- PRT holder: 6dcfVJxin4A9iK2YWGwuhHRUByTxTf4KQ712s6oE7i9t
+- USDC pool: 4HrECYHbtCJ2ByxrwPuRx1JbZiQep4e2uchSuuLZkz3G
+
+Auction 2
+
+- Pool: 9U8xzksWyGkKCAdf4yS49VftTKXk5sSurJn8xF1hcdqd
+- Pool Signer (PDA): BYtuU3qEiya2A7AjeMT3KWw8UAMVyYqXxDQ3SXEbR65x
+- Redeemable Mint: EAbTMJko5aQwSGrCrTAB676sYK8uSoEbVJxrP1MsBpce
+- PRT holder: 5RwqhT712v5UFi4Vw5uo5YmHuPAereXSXuJ9DthdP28M
+- USDC pool: Hh3MX8X8pdPHaQK5ygGHgQX6GvdMYbrYGmG4fFa32zc7
+
+NOTE: Pool Signer being the same for the two auctions is a potential
+vulnerability. The original Mango IDO must be patched to forbid non-team members
+from setting up auction pools.
+
+See: https://github.com/gopartyparrot/ido-pool/commit/65b852405df7ad653fd4ab60a8cc368c60724dc0#diff-66aabb6b0b825c38fdd907e96d1abb479c23207a2e7110d0e451166768556b23R37
+
 ## Debt Types
 
 ```
@@ -149,6 +179,8 @@ Raydium AMM: [8Wi7Uzr5oqKbC5fCCAW5zihaU8yUwiaPJMUW7HcDoMEq](https://raydium.io/s
   - 36swmX3oraDDNQ1tDXHDefPmGREZuo1KFH77NEvdXKQr
 - MER LP (USDC-USDT-UST):PAI+EARN
   - 35j2STGDvjwkG8uBZBBkmW7JMJYa4hAAxxEXhs14n5tc
+- MER LP (pSOL-SOL):PAI+EARN
+  - 7ScRkHBwAFwqHPqetMRfnxkmBMBYNVbo9CSEH6wK1Vge
 - SBR LP (USDC-USDT):PAI+EARN
   - FTUFAHGQEDBgGA6GjRogas1LW4s4HmyUebTjVJQSv8rN
 - SBR LP (mSOL-SOL):PAI+EARN
@@ -157,6 +189,8 @@ Raydium AMM: [8Wi7Uzr5oqKbC5fCCAW5zihaU8yUwiaPJMUW7HcDoMEq](https://raydium.io/s
   - 6Pv7Z8bRYXEYYabXvnLyTW6qRpwmuHTB1uFhdnKeSXgy
 - SBR LP (BTC-renBTC):pBTC+EARN
   - Gmzr6b6iPWKvWQtCmqL9yB6hYGec8Rv3XksmMT2VThDg
+- SBR LP (prtSOL-SOL):pSOL+EARN
+  - 33iF7hwwmaJbu28ZueTQNmXFjXmNSNrQfRyj8i16MZEY
 
 ## EARN Profits Distributor
 
