@@ -161,6 +161,12 @@ Withdrawal Fee: 1/1000 of withdrawal amount
 
 ## Trading Pairs
 
+### PRT-SOL
+
+Serum Market: H7ZmXKqEx1T8CTM4EMyqR5zyz4e4vUpWTTbCmYmzxmeW
+
+Raydium AMM: [7rVAbPFzqaBmydukTDFAuBiuyBrTVhpa5LpfDRrjX9mr](https://raydium.io/swap/?ammId=7rVAbPFzqaBmydukTDFAuBiuyBrTVhpa5LpfDRrjX9mr)
+
 ### PORT-PAI
 
 Serum Market: 5xswMf18x4gFY3c5i3A2RwPwhfHPZ71kpzPpmQvWmm9V
