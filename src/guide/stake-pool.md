@@ -88,7 +88,37 @@ The stake account is what you'd have if you staked SOL directly with a validator
 
 ## Undelegate SOL
 
-You can manage your stake accounts from Phantom, Solflare, or [Steaking.io](https://dashboard.steaking.io/stake). We recommend using steaking.io for its user-friendly UI.
+You can manage your stake accounts from Phantom, Solflare, or Steaking.io. To withdraw your SOL from a staking account, you need to first undelegate your
+
+### Unstake with Phantom
+
+To unstake SOL with Phantom wallet, click on "Your Stake" when viewing your SOL balance:
+
+![](./spool/phantom-unstake.png)
+
+Select the Stake Account that you would like to unstake from (it should be "inactive"):
+
+![](./spool/phantom-unstake-select-account.png)
+
+Then find the "Wiithdraw Stakee" option from the dropdown menu:
+
+![](./spool/phantom-withdraw-stake.png)
+
+### Unstake with Solflare
+
+Go to [solflare staking](https://solflare.com/staking).
+
+If your staking account is already deactivated, click on withdraw:
+
+![](./spool/solflare-unstake.png)
+
+Then input the amount you'd want to withdraw:
+
+![](./spool/solflare-unstake-amount.png)
+
+### Unstake with Steaking.io
+
+Go to the [Steaking.io dashboard](https://dashboard.steaking.io/stake).
 
 Find the stake account you want to undelegate:
 
