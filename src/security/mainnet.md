@@ -29,6 +29,11 @@ This document contains the list of accounts related to the Parrot Protocol.
 
 PRT88RkA4Kg5z7pKnezeNH4mafTvtQdfFgpQTGRjz44
 
+## PRT Protocol Reserves
+
+- Protocol Controlled Reserve: AwFV1s3vXqDRXe38YPNqQ23mvQgN88BiEomrQFekP5zT
+- Ecosystem Reserve: DgFdTutJDHbRsyfRsMT75in3MD1FDJ82qN92rPmJrnv5
+
 ## PRT IDO
 
 IDO Pool Program ID: 7r2chJLUU87eaM7T1aBi6f7g9BbtbgnwQ9kPbMGxJQWV
