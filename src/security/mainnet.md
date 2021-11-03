@@ -166,6 +166,15 @@ Epoch Fee: 2/100 of epoch rewards
 Withdrawal Fee: 1/1000 of withdrawal amount
 ```
 
+## PRT Vesting
+
+- Program ID: VESTZzwXWQ4MSjUZSUEg1Kb7rxsrYjHCrenA6pHpGxL
+- Vesting config: HnAv6i4Yh7bJxyXUDERD15kvHGXHX7aV97vnDQ6Bgh3
+- Vesting config PDA: HGCvvhUyi5wx29tc6nZs5TtwCKS1T5uuBpZc3xHcs4wg
+- yPRT Mint: yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM
+  - vesting half-life: 90 days
+- Claimable PRT holder: CJM5Un8AhMgLJv2mcj3o5z2z8H3deDzLA1TH7E3WhZQG
+
 ## Trading Pairs
 
 ### PRT-SOL

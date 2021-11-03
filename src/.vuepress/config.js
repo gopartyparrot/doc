@@ -57,6 +57,7 @@ module.exports = {
             'pai',
             'faucet',
             'stake-pool',
+            'yprt'
           ]
         }
       ],
