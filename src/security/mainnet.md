@@ -183,6 +183,14 @@ Serum Market: H7ZmXKqEx1T8CTM4EMyqR5zyz4e4vUpWTTbCmYmzxmeW
 
 Raydium AMM: [7rVAbPFzqaBmydukTDFAuBiuyBrTVhpa5LpfDRrjX9mr](https://raydium.io/swap/?ammId=7rVAbPFzqaBmydukTDFAuBiuyBrTVhpa5LpfDRrjX9mr)
 
+### PRT-USDC
+
+Serum Market: CsNZMtypiGgxm6JrmYVJWnLnJNsERrmT3mQqujLsGZj
+
+[Aldrin PRT/USDC](https://dex.aldrin.com/chart/spot/PRT_USDC)
+
+Raydium AMM: [DpNCmLN3sAN8DGfZsczBGURCQkZMoWhKTj5MjCiWt8i3](https://raydium.io/swap/?ammId=DpNCmLN3sAN8DGfZsczBGURCQkZMoWhKTj5MjCiWt8i3)
+
 ### PORT-PAI
 
 Serum Market: 5xswMf18x4gFY3c5i3A2RwPwhfHPZ71kpzPpmQvWmm9V
