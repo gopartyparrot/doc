@@ -5,11 +5,11 @@ yPRT is the Parrot Yield Token. Holding yPRT entitles you to protocol incentives
 - Staking PRT, to convert PRT into yPRT
 - Vesting yPRT, to unlock yPRT back to PRT
 
-Vesting yPRT takes 12 months to complete. In the first month you will get 20% unlocked, and in the third month you will get 50% unlocked.
+Vesting yPRT takes 7 days to complete. In the first day you will get 20% unlocked, and in the 2.1 day you will get 50% unlocked.
 
 # Staking PRT
 
-Visit https://parrot.fi/yprt.
+Visit [https://parrot.fi/yprt](https://parrot.fi/yprt).
 
 Click on "Stake" to stake PRT and get yPRT:
 
@@ -47,24 +47,6 @@ You can claim the vested PRT by clicking the "Claim PRT" button:
 
 At any time you may add or remove the amount of yPRT you are vesting.
 
-Here's a table of the % of vesting yPRT that will be unlocked each month:
-
-```
-1	20.6298
-2	37.0036
-3	49.9996
-4	60.3146
-5	68.5016
-6	74.9996
-7	80.1572
-8	84.2507
-9	87.4997
-10	90.0785
-11	92.1253
-12	93.7498
-...
-```
-
-By the end of 3 months, 50% will be unlocked. Theoretically this goes on forever, but at the end of 12 months the vesting vault will allow you to claim all the remaining PRT tokens.
+By the end of 2.1 days, 50% will be unlocked. Theoretically this goes on forever, but at the end of 7 days the vesting vault will allow you to claim all the remaining PRT tokens.
 
 However, the vesting yPRT tokens would no longer receive protocol incentives. If you'd like to stop vesting, you may click on "Unvest yPRT" at any time.
